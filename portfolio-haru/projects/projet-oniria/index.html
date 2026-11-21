@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Choose the language for this project."><meta name="theme-color" content="#f8f9fc"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="canonical" href="https://heleneluxemburger.github.io/projects/projet-oniria/"><title>Choose your language — Hélène Luxemburger</title><script>
+      (() => {
+        try {
+          const saved = localStorage.getItem('portfolio-theme');
+          const theme = saved ||
+            (matchMedia('(prefers-color-scheme: dark)').matches
+              ? 'dark'
+              : 'light');
+
+          document.documentElement.dataset.theme = theme;
+        } catch {
+          document.documentElement.dataset.theme = 'light';
+        }
+      })();
+    </script><link rel="stylesheet" href="/_astro/BaseLayout.BwHsvod3.css"></head><body><a class="skip-link" href="#main-content">Skip to content</a><svg style="display: none;"><defs><symbol id="linkedin" viewBox="0 0 640 640"><path d="M160 96C124.7 96 96 124.7 96 160L96 480C96 515.3 124.7 544 160 544L480 544C515.3 544 544 515.3 544 480L544 160C544 124.7 515.3 96 480 96L160 96zM165 266.2L231.5 266.2L231.5 480L165 480L165 266.2zM236.7 198.5C236.7 219.8 219.5 237 198.2 237C176.9 237 159.7 219.8 159.7 198.5C159.7 177.2 176.9 160 198.2 160C219.5 160 236.7 177.2 236.7 198.5zM413.9 480L413.9 376C413.9 351.2 413.4 319.3 379.4 319.3C344.8 319.3 339.5 346.3 339.5 374.2L339.5 480L273.1 480L273.1 266.2L336.8 266.2L336.8 295.4L337.7 295.4C346.6 278.6 368.3 260.9 400.6 260.9C467.8 260.9 480.3 305.2 480.3 362.8L480.3 480L413.9 480z"></path></symbol><symbol id="envelope" viewBox="0 0 640 640"><path d="M112 128C85.5 128 64 149.5 64 176C64 191.1 71.1 205.3 83.2 214.4L291.2 370.4C308.3 383.2 331.7 383.2 348.8 370.4L556.8 214.4C568.9 205.3 576 191.1 576 176C576 149.5 554.5 128 528 128L112 128zM64 260L64 448C64 483.3 92.7 512 128 512L512 512C547.3 512 576 483.3 576 448L576 260L377.6 408.8C343.5 434.4 296.5 434.4 262.4 408.8L64 260z"></path></symbol></defs></svg><header class="site-header"><nav class="nav container" aria-label="Main navigation"><a class="brand" href="/en/" aria-label="Portfolio">HL</a><div class="nav-links"><a href="/en/#profil">Profile</a><a href="/en/#experience">Experience</a><a href="/en/#professionnel">Work</a><a href="/en/#personnel">Personal</a><a href="/en/#contact">Contact</a></div><div class="nav-actions"><a class="language-link" href="/fr/" lang="fr">FR</a><button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle theme">☾</button></div></nav></header><main id="main-content"><section class="section container"><p class="eyebrow">PROJECT / PROJET</p><h1>Choose your language<span class="accent">.</span></h1><p class="lead" lang="fr">Choisissez votre langue.</p><div class="hero-actions"><a class="button button-primary" href="/fr/projets/projet-oniria/">Français</a><a class="button button-secondary" href="/en/projects/projet-oniria/" lang="en">English</a></div></section><script>(function(){const frUrl = "/fr/projets/projet-oniria/";
+const enUrl = "/en/projects/projet-oniria/";
+
+    const language = navigator.language.toLowerCase().startsWith('fr')
+      ? 'fr'
+      : 'en';
+
+    window.location.replace(language === 'fr' ? frUrl : enUrl);
+  })();</script></main><footer class="site-footer"><div class="container footer-inner"><p>© 2026 — Hélène Luxemburger</p></div></footer><script type="module">var e=document.querySelector(`[data-theme-toggle]`);function t(){if(!e)return;let t=document.documentElement.dataset.theme===`dark`;e.textContent=t?`☀`:`☾`,e.setAttribute(`aria-label`,t?`Activer le thème clair`:`Activer le thème sombre`)}t(),e?.addEventListener(`click`,()=>{let e=document.documentElement.dataset.theme===`dark`?`light`:`dark`;document.documentElement.dataset.theme=e;try{localStorage.setItem(`portfolio-theme`,e)}catch{}t()});</script></body></html>
